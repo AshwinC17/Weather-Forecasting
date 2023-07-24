@@ -1,6 +1,6 @@
 # Weather Forecast Program
 
-This program interacts with the OpenWeatherMap API to provide hourly weather forecasts for the city of London. It allows the user to retrieve weather data, wind speed, and pressure for a specific date.
+This program interacts with the OpenWeatherMap API to provide hourly weather forecasts for the city of London. It allows the user to retrieve weather data, wind speed, and pressure for a specific date within the date range of 2019-03-27 19:00:00 to 2019-03-31 17:00:00.
 
 ## Requirements
 
