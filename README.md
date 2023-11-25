@@ -1,50 +1,63 @@
-# Weather Forecast Program
+# Weather Forecasting Website
 
-This program interacts with the OpenWeatherMap API to provide hourly weather forecasts for the city of London. It allows the user to retrieve weather data, wind speed, and pressure for a specific date within the date range of 2019-03-27 19:00:00 to 2019-03-31 17:00:00.
+Welcome to the Weather Forecasting Website project! This web application provides users with real-time weather information based on their location. It is built using JavaScript, HTML, and CSS, and features a clean and responsive design.
 
-## Requirements
+## Table of Contents
 
-- Python 3.x
-- requests library (can be installed using `pip install requests`)
+- Features
+- Installation
+- Usage
+- Technologies Used
 
-## How to Use
+## Features
 
-1. Clone the repository or download the code files.
-2. Ensure you have Python 3.x installed on your system.
-3. Install the `requests` library by running `pip install requests`.
-4. Run the program using the following command:
+- **Real-time Weather Data:** Get the latest weather information based on your location.
+- **Location-based Forecast:** The website uses geolocation to provide accurate weather forecasts.
+- **Responsive Design:** The user interface is designed to work seamlessly on both desktop and mobile devices.
 
-```bash
-python weather.py
-```
+## Installation
 
-5. The program will present you with a menu to choose from:
+1. Clone the repository:
 
-```
-1. Get weather
-2. Get Wind Speed
-3. Get Pressure
-0. Exit
-```
+   ```bash
+   git clone https://github.com/AshwinC17/weather-forecasting.git
+   ```
 
-6. Enter the corresponding number to select the desired option.
+2. Open the project folder:
 
-- If you select option 1, the program will prompt you to enter a date (YYYY-MM-DD) and display the average temperature for that date in Kelvin.
+   ```bash
+   cd weather-forecast
+   ```
 
-- If you select option 2, the program will prompt you to enter a date (YYYY-MM-DD) and display the average wind speed for that date in meters per second.
+3. Open `index.html` in your web browser.
 
-- If you select option 3, the program will prompt you to enter a date (YYYY-MM-DD) and display the average pressure for that date in hectopascals (hPa).
+## Usage
 
-7. The program will continue to run until you select option 0 to exit.
+1. Allow the website to access your location.
+2. View the real-time weather information for your current location.
+3. Explore additional features such as extended forecasts and weather maps.
 
-## Note
+## Technologies Used
 
-- The program uses the OpenWeatherMap API for hourly weather forecast data for London. Please ensure you have an internet connection to fetch the data.
+- **JavaScript, HTML, CSS:** The core technologies used for developing the Weather Forecasting Website.
+- **OpenWeatherMap API:** Real-time weather data is fetched using the OpenWeatherMap API.
+- **Moment.js:** Used for handling and formatting dates and times.
+- **Google Fonts:** The Poppins font from Google Fonts is utilized for a clean and modern look.
 
-- The API URL used in the program is: `https://samples.openweathermap.org/data/2.5/forecast/hourly?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22`
+## Styles
 
-- The API may not have data for some dates or times, so the program will display "Data not found for the provided date" in such cases.
+The project includes a well-organized and responsive CSS file (`style.css`) that ensures a visually appealing and user-friendly interface. The background image is sourced from Unsplash.
 
-- The provided API key is a sample key and may have limited access. For continuous usage or commercial applications, consider obtaining your own API key from OpenWeatherMap.
+## Contributions
 
-- The program is designed to be modular with functions to handle data retrieval and user input.
+Contributions are welcome! Follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`
+3. Make changes and commit: `git commit -m 'Add new feature'`
+4. Push to the branch: `git push origin feature-name`
+5. Submit a pull request.
+
+Please adhere to the code of conduct
+
+Thank you for using the Weather Forecasting Website! If you have any questions or issues, please contact me.
